@@ -1,0 +1,76 @@
+.card1 {
+    width: 350px;
+    height: 350px;
+    background: url("image1.jpg") no-repeat;
+    margin: 50px;
+}
+.card1:hover {
+    background: url("image2.jpg") no-repeat;
+    width:350px;
+    height:260px;
+}  
+
+.card2 {
+    width: 350px;
+    height: 350px;
+    background: url("balloon.jpg") no-repeat;
+    margin: 50px;
+}
+.card2:hover {
+    background: url("cake.jpg") no-repeat;
+    width:350px;
+    height:380px;
+}  
+.card3 {
+    width: 350px;
+    height: 350px;
+    background: url("computer2.jpg") no-repeat;
+    margin: 50px;
+}
+.card3:hover {
+    background: url("books.jpg") no-repeat;
+    width:350px;
+    height:500px;
+} 
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 60px;
+  }
+  
+  
+  .row {margin: 0 -5px;}
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  } 
+  
